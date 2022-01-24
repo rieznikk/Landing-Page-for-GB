@@ -19,7 +19,12 @@ body {
 }
 
 .mainContainer {
-    width: 940px;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.mainContainerMap {
+    max-width: 940px;
     margin: 0 auto;
 }
 
@@ -446,6 +451,11 @@ hr {
     border: 1px solid #FFFFFF;
 }
 
+.icon {
+    margin-right: 16px;
+    padding-top: 16px;
+}
+
 @media (max-width: 1140px) {
     .container {
         padding-left: 32px;
@@ -476,6 +486,42 @@ hr {
         flex-direction: column;
         margin-bottom: 39px;
     }
+
+    .header {
+        padding-top: 18px;
+    }
+
+    .contactUs {
+        background-size: auto;
+    }
+
+    .mainContent2 {
+        width: 75%;
+    }
+
+    .mainContent {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 64px;
+    }
+
+    .map {
+        margin-top: 0;
+        margin-bottom: 64px;
+    }
+
+    .footer {
+        margin-top: 0;
+    }
+
+    .ourFinishedProject {
+        margin-bottom: 109px;
+    }
+
+    .mainContainerMap {
+        max-width: 100%;
+
+    }
 }
 
 @media (max-width: 667px) {
@@ -485,6 +531,18 @@ hr {
         line-height: 37px;
         margin-bottom: 12px;
         width: 100%;
+    }
+
+    .mainHeadingTwo {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+
+    .paragraphContactUs {
+        font-size: 16px;
+        line-height: 30px;
     }
 
     .introduction {
@@ -595,5 +653,47 @@ hr {
 
     .offer {
         flex-direction: column;
+    }
+
+    .bestForm {
+        padding: 14px 26px;
+        max-width: 272px;
+    }
+
+    .bestFormArea {
+        padding: 14px 26px;
+        max-width: 272px;
+    }
+
+    .bestButton {
+        max-width: 272px;
+        height: 46px;
+    }
+
+    .ourAdress {
+        max-width: 375px;
+        padding: 40px;
+        box-sizing: border-box;
+        margin-top: 0;
+    }
+
+    .paragraphForm {
+        margin-bottom: 0;
+    }
+
+    .text-area {
+        margin-bottom: 46px;
+    }
+
+    .mainContent {
+        margin-bottom: 32px;
+    }
+
+    .map {
+        margin-bottom: 32px;
+    }
+
+    .formMessage {
+        padding: 44px;
     }
 }
