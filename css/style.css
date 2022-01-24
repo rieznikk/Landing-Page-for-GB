@@ -1,0 +1,599 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.wtf {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.mainContainer {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 42px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.top {
+    min-height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+
+.introductionButton {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+
+.mainHeading {
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    width: 510px;
+    margin-bottom: 32px;
+}
+
+.aboutHeading {
+    width: 425px;
+}
+
+.mainHeadingTwo {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 51px 0px 0px 16px;
+    margin-top: 55px;
+}
+
+.mainHeadingThree {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.mainHeadingFour {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 24px;
+
+}
+
+.bestForm {
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    align-items: center;
+    width: 428px;
+    height: 72px;
+    padding: 21px 42px;
+}
+
+.bestFormArea {
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border-radius: 10px;
+    align-items: center;
+    width: 428px;
+    height: 144px;
+    padding: 21px 42px;
+}
+
+.marginForm {
+    margin-top: 32px;
+}
+
+.ourAdress {
+    margin-top: 100px;
+}
+
+.bestButton {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    width: 428px;
+    height: 72px;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardOurMission {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.coop {
+    width: 495px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 112px;
+    margin-top: 96px;
+    height: 480px;
+}
+
+.home {
+    width: 100%;
+}
+
+.introduction {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(/img/background.png);
+    background-repeat: no-repeat;
+    background-position: right 100px;
+    background-size: 44%;
+}
+
+.topContentBox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.ourMission {
+    margin-top: 64px;
+}
+
+.cardLink {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+}
+
+.card {
+    padding: 44px 32px;
+    box-sizing: border-box;
+    width: 359px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardImg {
+    align-self: center;
+    margin-bottom: 51px;
+}
+
+.HeadingfinishedProject {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.PfinishedProject {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    width: 75%;
+    margin: 32px auto 64px;
+}
+
+.containerProject {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.projectImg {
+    width: 100%;
+}
+
+.projectItem {
+    position: relative;
+    flex-grow: 1;
+}
+
+.projectText {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.projectTextTwo {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.projectParent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.projectItemTwo {
+    margin-right: 32px;
+}
+
+.headingOffer {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    padding-top: 91px;
+    color: #FFFFFF;
+    width: 350px;
+}
+
+.pOffer {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding-top: 32px;
+    padding-bottom: 96px;
+    width: 450px;
+}
+
+.footer {
+    background: #316099;
+    margin-top: 112px;
+    padding-bottom: 64px;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnOffer {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    background: #5A98D0;
+    text-decoration: none;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    padding: 15px 50px;
+    display: inline-block;
+}
+
+.paragraphFooter {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.rights {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.contactUs {
+    height: 250px;
+    width: 100%;
+    background-image: url(/img/backContact.png);
+    background-repeat: no-repeat;
+    background-position: 0 0, center;
+    background-size: 100%;
+}
+
+.paragraphContactUs {
+    text-align: center;
+    margin-bottom: 49px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.img {
+    margin-bottom: 56px;
+}
+
+.paragraphContent {
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+    width: 350px;
+}
+
+.paragraphContentt {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+    width: 350px;
+    margin-bottom: 16px;
+}
+
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+
+.formMessage {
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 56px;
+}
+
+.paragraphForm {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+}
+
+.text-area {
+    margin-bottom: 72px;
+}
+
+.firstPForm {
+    margin-top: 48px;
+}
+
+hr {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+
+@media (max-width: 1140px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+        max-width: 1140px;
+    }
+
+    .introduction {
+        background-position: right center;
+    }
+
+    .cardOurMission {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 127px;
+    }
+
+    .card {
+        margin-bottom: 32px;
+    }
+
+    .paragraphFooter {
+        margin-bottom: 25px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 39px;
+    }
+}
+
+@media (max-width: 667px) {
+    .mainHeading {
+        text-align: center;
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .introduction {
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+        padding-bottom: 41px;
+        box-sizing: border-box;
+    }
+
+    .aboutHeading {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header {
+        padding-top: 24px;
+    }
+
+    .introductionButton {
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+        padding: 0 8px;
+        margin-top: 32px;
+    }
+
+    .top {
+        min-height: 376px;
+    }
+
+    .mainHeadingThree {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 32px;
+    }
+
+    .ourMission {
+        margin-top: 48px;
+    }
+
+    .cardOurMission {
+        margin-bottom: 64px;
+    }
+
+    .cardLink {
+        padding-top: 46px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .PfinishedProject {
+        width: 100%;
+    }
+
+    .projectText {
+        top: 16px;
+        right: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .projectTextTwo {
+        top: 16px;
+        left: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .projectItemTwo {
+        margin: 0;
+    }
+
+    .projectParent {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+
+    .projectItem {
+        margin-bottom: 16px;
+    }
+
+    .headingOffer {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .rightItem {
+        padding-bottom: 41px;
+    }
+
+    .pOffer {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .headingOffer {
+        padding-top: 18px;
+        width: 100%;
+    }
+
+    .offer {
+        flex-direction: column;
+    }
+}
