@@ -144,6 +144,7 @@ body {
 
 .ourAdress {
     margin-top: 100px;
+    max-width: 1140px;
 }
 
 .bestButton {
@@ -695,5 +696,41 @@ hr {
 
     .formMessage {
         padding: 44px;
+    }
+}
+
+@media (max-width: 320px) {
+    .formMessage {
+        padding: 20px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .bestForm {
+        width: 240px;
+    }
+
+    .bestFormArea {
+        width: 240px;
+    }
+
+    .bestButton {
+        width: 240px;
+    }
+
+    .paragraphContent {
+        width: 100%;
+    }
+
+    .paragraphContentt {
+        width: 100%;
+    }
+
+    .ourAdress {
+        width: 100%;
+    }
+
+    .img {
+        width: 100%;
     }
 }
