@@ -207,7 +207,7 @@ body {
 .introduction {
     padding-top: 115px;
     flex-grow: 1;
-    background-image: url(/img/background.png);
+    background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-position: right 100px;
     background-size: 44%;
@@ -376,7 +376,7 @@ body {
 .contactUs {
     height: 250px;
     width: 100%;
-    background-image: url(/img/backContact.png);
+    background-image: url(../img/backContact.png);
     background-repeat: no-repeat;
     background-position: 0 0, center;
     background-size: 100%;
